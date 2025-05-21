@@ -61,9 +61,9 @@ Route::get('/ets', function () {
     return view('ets');
 });
 
-Route::get('hello',[Coba;;class, 'helloworld']);
-Route;;get('pertama',funtion(){
-    Return view('pertama');
+Route::get('hello',[Coba::class, 'helloworld']);
+Route::get('pertama',function(){
+    return view('pertama');
 });
 
 Route::get('dosen',[Coba::class, 'index']);
