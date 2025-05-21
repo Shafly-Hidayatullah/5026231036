@@ -1,47 +1,58 @@
 /* frontend.css */
-
-body {
+* {
     margin: 0;
     padding: 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background: #f5f7fa;
-    color: #333;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+}
+
+/* Container utama */
 .container {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 20px;
+    max-width: 960px;
+    width: 100%;
     text-align: center;
 }
 
+/* Judul */
 h1 {
     font-size: 2rem;
     margin-bottom: 30px;
-    color: #2c3e50;
+    color: #2d3748;
 }
 
+/* Grid link tugas */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 20px;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
+/* Kartu link */
 .card {
     display: block;
-    background-color: #ffffff;
-    padding: 20px;
+    background: #ffffff;
+    padding: 20px 10px;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-decoration: none;
     color: #2c3e50;
-    font-weight: bold;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease-in-out;
 }
 
 .card:hover {
+    background-color: #e2e8f0;
     transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
-    background-color: #ecf0f1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
 }

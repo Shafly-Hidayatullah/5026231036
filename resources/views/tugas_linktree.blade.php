@@ -135,7 +135,7 @@
         <div class="btn-content">
           <div class="btn-left">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\brand-whatsapp.svg"
+              src="MaterialLinktree\brand-whatsapp.svg"
               alt="WA Tambak Anakan (Konsultasi Kendala & Servis)"
             />
             <div class="btn-text-centered">
@@ -152,7 +152,7 @@
         <div class="btn-content">
           <div class="btn-left">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\brand-whatsapp.svg"
+              src="MaterialLinktree\brand-whatsapp.svg"
               alt="WA Toko ITC (Jual Beli & Tukar-Tambah)"
             />
             <div class="btn-text-centered">
@@ -169,7 +169,7 @@
         <div class="btn-content">
           <div class="btn-left">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\shopping-cart.svg"
+              src="MaterialLinktree\shopping-cart.svg"
               alt="Shopee: Yes.Camera"
             />
             <div class="btn-text-centered">Shopee: Yes.Camera</div>
@@ -184,7 +184,7 @@
         <div class="btn-content">
           <div class="btn-left">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\shopping-cart.svg"
+              src="MaterialLinktree\shopping-cart.svg"
               alt="Tokopedia: YesCamera"
             />
             <div class="btn-text-centered">Tokopedia: YesCamera</div>
@@ -199,7 +199,7 @@
         <div class="btn-content">
           <div class="btn-left">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\headset.svg"
+              src="MaterialLinktree\headset.svg"
               alt="Layanan Pengaduan Konsumen (Kritik & Saran)"
             />
             <div class="btn-text-centered">
@@ -216,7 +216,7 @@
         <div class="btn-content">
           <div class="btn-left">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\building-store.svg"
+              src="MaterialLinktree\building-store.svg"
               alt="Google Page Yes Camera Surabaya"
             />
             <div class="btn-text-centered">Google Page Yes Camera Surabaya</div>
@@ -234,7 +234,7 @@
         <div class="btn-content">
           <div class="btn-left">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\brand-instagram.svg"
+              src="MaterialLinktree\brand-instagram.svg"
               alt="Toko Kamera Surabaya (@yescamera.katalog)"
             />
             <div class="btn-text-centered">
@@ -251,13 +251,13 @@
       <div class="social-icons">
         <a href="https://www.instagram.com/yescamera.surabaya/">
           <img
-            src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\brand-instagram.svg"
+            src="MaterialLinktree\brand-instagram.svg"
             alt="Instagram"
           />
         </a>
         <a href="https://www.tiktok.com/@yescamera.surabaya">
           <img
-            src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\MaterialLinktree\tiktok-logo-thin.svg"
+            src="MaterialLinktree\tiktok-logo-thin.svg"
             alt="TikTok"
           />
         </a>

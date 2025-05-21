@@ -17,6 +17,7 @@
             <a href="{{ url('/tugas_layouting') }}" class="card">tugas_layouting</a>
             <a href="{{ url('/tugas_linktree') }}" class="card">tugas_linktree</a>
             <a href="{{ url('/coba1') }}" class="card">coba1</a>
+            <a href="{{ url('/ets') }}" class="card">ets</a>
             
         </div>
     </div>

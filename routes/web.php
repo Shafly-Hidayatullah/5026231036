@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Coba;
+use App\Http\Controllers\PegawaiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,3 +57,23 @@ Route::get('/frontend', function () {
     return view('frontend');
 });
 
+Route::get('/ets', function () {
+    return view('ets');
+});
+
+Route::get('hello',[Coba;;class, 'helloworld']);
+Route;;get('pertama',funtion(){
+    Return view('pertama');
+});
+
+Route::get('dosen',[Coba::class, 'index']);
+
+Route::get('/pegawai/{nama}',[PegawwaiController::class, 'index']);
+
+Route::get('/formulir',[PegawwaiController::class, 'formulir']); //halaman osoan formulis
+Route::post('/formulir/proses',[PegawwaiController::class, 'proses']); //action form
+
+//ruteblog
+Route::get('/blog',[BlogController::class, 'home']);
+Route::get('/blog/tentang',[PBlogController::class, 'tentang']); 
+Route::get('/blog/kontak',[BlogController::class, 'kontak']); 

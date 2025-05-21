@@ -103,7 +103,7 @@
       <div class="header">
         <div class="logo-container">
           <img
-            src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (10).png"
+            src="materialC\Gambar (10).png"
             alt="Logo"
           />
         </div>
@@ -118,7 +118,7 @@
           <div class="equipment-card">
             <span class="mostly-borrowed">Mostly Borrowed</span>
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (5).png"
+              src="materialC\Gambar (5).png"
               alt="Lighting Set Sony"
             />
             <p>Lighting Set Sony</p>
@@ -128,7 +128,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (2).png"
+              src="materialC\Gambar (2).png"
               alt="Canon Lens EFS"
             />
             <p>Canon Lens EFS 18-135mm</p>
@@ -138,7 +138,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (3).png"
+              src="materialC\Gambar (3).png"
               alt="Sony Camcorder"
             />
             <p>Sony PXW-Z90T XDCAM camcorder</p>
@@ -149,7 +149,7 @@
           <div class="equipment-card">
             <span class="mostly-borrowed">Mostly Borrowed</span>
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (11).png"
+              src="materialC\Gambar (11).png"
               alt="Canon EOS 40000"
             />
             <p>Canon EOS 40000</p>
@@ -162,7 +162,7 @@
           <div class="equipment-card">
             <span class="mostly-borrowed">Mostly Borrowed</span>
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (29).png"
+              src="materialC\Gambar (29).png"
               alt="TaffSTUDIO Softbox Reflektor"
             />
             <p>TaffSTUDIO Softbox Reflektor</p>
@@ -172,7 +172,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (26).png"
+              src="materialC\Gambar (26).png"
               alt="Inbex Lighting Studio Softbox"
             />
             <p>InbexLighting Studio Softbok</p>
@@ -182,7 +182,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (9).png"
+              src="materialC\Gambar (9).png"
               alt="Tripod LED 204 Video Lighting"
             />
             <p>Tripod LED 204 Video Lighting</p>
@@ -192,7 +192,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (30).png"
+              src="materialC\Gambar (30).png"
               alt="F8 Reflek Lens 900 mm"
             />
             <p>F8 Reflek Lens 900 mm</p>
@@ -204,7 +204,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (24).png"
+              src="materialC\Gambar (24).png"
               alt="Sony FE 24-70mm F2.8 GM LENS"
             />
             <p>Sony FE 24-70mm F2.8 GM LENS</p>
@@ -214,7 +214,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (25).png"
+              src="materialC\Gambar (25).png"
               alt="Canon EFS 18-55mm"
             />
             <p>Canon EFS 18-55mm</p>
@@ -224,7 +224,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (1).png"
+              src="materialC\Gambar (1).png"
               alt="Nikon D7500"
             />
             <p>Nikon D7500</p>
@@ -234,7 +234,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (8).png"
+              src="materialC\Gambar (8).png"
               alt="Insta slim-go"
             />
             <p>Instax slim-go</p>
@@ -246,7 +246,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (12).png"
+              src="materialC\Gambar (12).png"
               alt="Sony Ziess"
             />
             <p>Sony Ziess</p>
@@ -257,7 +257,7 @@
           <div class="equipment-card">
             <span class="mostly-borrowed">Mostly Borrowed</span>
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (28).png"
+              src="materialC\Gambar (28).png"
               alt="Black Backdrop kit"
             />
             <p>Black Backdrop kit</p>
@@ -267,7 +267,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (27).png"
+              src="materialC\Gambar (27).png"
               alt="Blue Backdrop kit"
             />
             <p>Blue Backdrop kit</p>
@@ -284,7 +284,7 @@
     <div class="bottom-nav">
       <a href="#"
         ><img
-          src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (23).png"
+          src="materialC\Gambar (23).png"
           width="24"
           height="24"
         /><br />Profile</a
@@ -292,7 +292,7 @@
 
       <a href="#"
         ><img
-          src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (22).png"
+          src="materialC\Gambar (22).png"
           width="24"
           height="24"
         /><br />Menu</a
@@ -300,7 +300,7 @@
 
       <a href="#"
         ><img
-          src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (20).png"
+          src="materialC\Gambar (20).png"
           width="24"
           height="24"
         /><br />Riwayat</a
@@ -308,7 +308,7 @@
 
       <a href="#"
         ><img
-          src="C:\Users\FARIS\OneDrive\Documents\KULIAH\Mata kuliah semester 4\Pemrograman Web\VS code\FEC5026231036\materialC\Gambar (21).png"
+          src="materialC\Gambar (21).png"
           width="24"
           height="24"
         /><br />Equipment</a
