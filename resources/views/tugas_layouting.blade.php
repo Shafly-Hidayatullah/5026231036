@@ -192,7 +192,7 @@
         <div class="col-3 mb-2">
           <div class="equipment-card">
             <img
-              src="materialC\Gambar (30).png"
+              src="Material1\Gambar (30).png"
               alt="F8 Reflek Lens 900 mm"
             />
             <p>F8 Reflek Lens 900 mm</p>

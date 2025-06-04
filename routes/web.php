@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Coba;
 use App\Http\Controllers\PegawaiController;
+use App\Http\Controllers\PegawaiDBController;
+use App\Http\Controllers\BlogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,65 +17,76 @@ use App\Http\Controllers\PegawaiController;
 |
 */
 
-
-
 Route::get('/', function () {
-    return view('welcome');
+	return view('welcome');
 });
 
-Route::get('/bootstrap1', function () {
-    return view('bootstrap1');
+Route::get('halo', function () {
+	return "Halo, Selamat datang di tutorial laravel www.malasngoding.com";
 });
 
-Route::get('/bootstrap2', function () {
-    return view('bootstrap2');
+//route tugas pertama
+Route::get('pertama', function () {
+	return view('pertama');
 });
 
-Route::get('/coba1', function () {
-    return view('coba1');
+//route tugas kedua
+Route::get('mediaquery', function () {
+	return view('mediaquery');
 });
 
-Route::get('/js1', function () {
-    return view('js1');
+Route::get('linktree', function () {
+	return view('linktree');
 });
 
-Route::get('/js2', function () {
-    return view('js2');
+//route template bootstrap
+Route::get('bootstrap1', function () {
+	return view('bootstrap1');
 });
 
-Route::get('/tugas_linktree', function () {
-    return view('tugas_linktree');
+//route tugas bootstrap
+Route::get('bootstrap2', function () {
+	return view('bootstrap2');
 });
 
-Route::get('/index', function () {
-    return view('index');
+//route tugas layout
+Route::get('layout4', function () {
+	return view('layout4');
 });
 
-Route::get('/tugas_layouting', function () {
-    return view('tugas_layouting');
+
+Route::get('js1', function () {
+	return view('js1');
 });
 
-Route::get('/frontend', function () {
-    return view('frontend');
+Route::get('js2', function () {
+	return view('js2');
 });
 
-Route::get('/ets', function () {
-    return view('ets');
+//website make-over ETS
+Route::get('uts', function () {
+	return view('uts');
 });
 
-Route::get('hello',[Coba::class, 'helloworld']);
-Route::get('pertama',function(){
-    return view('pertama');
-});
+//route pertemuan 12
+Route::get('dosen', [Coba::class, 'index']);
+// Route::get('pegawai/{nama}', [PegawaiController::class, 'index']);
+Route::get('formulir', [PegawaiController::class, 'formulir']);
+Route::post('formulir/proses', [PegawaiController::class, 'proses']);
 
-Route::get('dosen',[Coba::class, 'index']);
+//route blog
+Route::get('blog', [BlogController::class, 'home']);
+Route::get('blog/tentang', [BlogController::class, 'tentang']);
+Route::get('blog/kontak', [BlogController::class, 'kontak']);
 
-Route::get('/pegawai/{nama}',[PegawwaiController::class, 'index']);
+//route CRUD
+Route::get('/pegawai', [PegawaiDBController::class, 'index']);
+Route::get('/pegawai/tambah', [PegawaiDBController::class, 'tambah']);
+Route::post('/pegawai/store', [PegawaiDBController::class, 'store']);
+Route::get('/pegawai/edit/{id}', [PegawaiDBController::class, 'edit']);
+Route::post('/pegawai/update', [PegawaiDBController::class, 'update']);
+Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
 
-Route::get('/formulir',[PegawwaiController::class, 'formulir']); //halaman osoan formulis
-Route::post('/formulir/proses',[PegawwaiController::class, 'proses']); //action form
-
-//ruteblog
-Route::get('/blog',[BlogController::class, 'home']);
-Route::get('/blog/tentang',[PBlogController::class, 'tentang']); 
-Route::get('/blog/kontak',[BlogController::class, 'kontak']); 
+// route pencari
+Route::get('/pegawai', [PegawaiDBController::class, 'index']);
+Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);

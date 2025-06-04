@@ -1,32 +1,33 @@
 <!-- Menghubungkan dengan view template master -->
 @extends('blog/master')
- 
-@section('title','Halaman Blog')
+
 <!-- isi bagian judul halaman -->
+@section('title','Halaman Blog')
 <!-- cara penulisan isi section yang pendek -->
 @section('judul_halaman', 'Halaman Kontak')
- 
- 
+
+
 <!-- isi bagian konten -->
 <!-- cara penulisan isi section yang panjang -->
 @section('konten')
- 
+
 	<p>Ini Adalah Halaman Kontak</p>
-	
+
 	<table border="1">
 		<tr>
 			<td>Email</td>
 			<td>:</td>
-			<td>malasngoding@gmail.com</td>
+			<td>hmmaewes@gmail.com</td>
 		</tr>
 		<tr>
 			<td>Hp</td>
 			<td>:</td>
-			<td>0896-0676-7404</td>
+			<td>081357036330</td>
 		</tr>
 	</table>
- 
-    @section('footer')
-    <i class="fa fa-coppyright" arial-hidden="true"></i>Copyright by Shafly 2025</p>
 
+@endsection
+
+@section('footer')
+    <i class="fa fa-copyright" aria-hidden="true">Akhtar Zia</i>
 @endsection
