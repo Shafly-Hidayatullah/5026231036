@@ -79,13 +79,33 @@ Route::get('blog', [BlogController::class, 'home']);
 Route::get('blog/tentang', [BlogController::class, 'tentang']);
 Route::get('blog/kontak', [BlogController::class, 'kontak']);
 
-//route CRUD
+// route CRUD
+// pegawai
 Route::get('/pegawai', [PegawaiDBController::class, 'index']);
 Route::get('/pegawai/tambah', [PegawaiDBController::class, 'tambah']);
 Route::post('/pegawai/store', [PegawaiDBController::class, 'store']);
 Route::get('/pegawai/edit/{id}', [PegawaiDBController::class, 'edit']);
 Route::post('/pegawai/update', [PegawaiDBController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
+
+// kertas
+use App\Http\Controllers\KertasController;
+Route::get('/kertas', [KertasController::class, 'index']);
+// Menampilkan form edit
+Route::get('/kertas/edit/{id}', [KertasController::class, 'edit']);
+// Memproses update data
+Route::post('/kertas/update', [KertasController::class, 'update']);
+Route::get('/kertas/hapus/{id}', [KertasController::class, 'hapus']);
+// Menampilkan form tambah data kertas
+Route::get('/kertas/tambah', [KertasController::class, 'tambah']);
+// Menyimpan data baru
+Route::post('/kertas/store', [KertasController::class, 'store']);
+Route::get('/kertas/cari', [KertasController::class, 'cari']);
+
+
+
+
+
 
 // route pencari
 Route::get('/pegawai', [PegawaiDBController::class, 'index']);

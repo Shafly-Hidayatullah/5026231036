@@ -21,7 +21,7 @@
 
 <body>
     <div class="jumbotron text-center mx-auto">
-        <h1>5026231095 : Akhtar Zia Faizarrobbi</h1>
+        <h1>5026231036 : Shafly Hidayatullah</h1>
     </div>
 
     
@@ -35,7 +35,7 @@
                 <a class="nav-link" href="/pegawai">Pegawai</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tugas CRUD</a>
+                <a class="nav-link" href="kertas">Tugas CRUD</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">EAS</a>
@@ -54,7 +54,14 @@
     <br>
     <div class="container">
         @yield('content')
+        @if (session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
     </div>
+@endif
+
+    </div>
+    
 
 </body>
 
