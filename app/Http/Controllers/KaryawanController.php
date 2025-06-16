@@ -16,7 +16,7 @@ class KaryawanController extends Controller
 
     public function tambah()
     {
-        return view('karyawan.tambah');
+        return view('tambahkaryawan');
     }
 
     public function store(Request $request)
@@ -40,8 +40,9 @@ class KaryawanController extends Controller
     public function edit($kodepegawai)
 {
     $karyawan = DB::table('karyawan')->where('kodepegawai', $kodepegawai)->first();
-    return view('karyawan.edit', ['karyawan' => $karyawan]);
+    return view('editkaryawan', ['karyawan' => $karyawan]);
 }
+
 
 public function update(Request $request)
 {

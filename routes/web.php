@@ -109,9 +109,10 @@ use App\Http\Controllers\KaryawanController;
 Route::get('/karyawan', [KaryawanController::class, 'index']);
 Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
 Route::post('/karyawan/store', [KaryawanController::class, 'store']);
-Route::get('/karyawan/hapus/{kodepegawai}', [KaryawanController::class, 'hapus']);
-Route::get('/karyawan/edit/{kodepegawai}', [KaryawanController::class, 'edit']);
+Route::get('/karyawan/edit/{kodekaryawan}', [KaryawanController::class, 'edit']);
 Route::post('/karyawan/update', [KaryawanController::class, 'update']);
+Route::get('/karyawan/hapus/{kodekaryawan}', [KaryawanController::class, 'hapus']);
+Route::get('/karyawan/cari', [KaryawanController::class, 'index']);
 
 
 
