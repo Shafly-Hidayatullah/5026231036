@@ -5,6 +5,10 @@ use App\Http\Controllers\Coba;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\KaryawanController;
+use App\Http\Controllers\KeranjangBelanjaController;
+use App\Http\Controllers\PageCounterController;
+use App\Http\Controllers\NilaiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -88,24 +92,17 @@ Route::get('/pegawai/edit/{id}', [PegawaiDBController::class, 'edit']);
 Route::post('/pegawai/update', [PegawaiDBController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
 
-// kertas
+// route kertas
 use App\Http\Controllers\KertasController;
 Route::get('/kertas', [KertasController::class, 'index']);
-// Menampilkan form edit
 Route::get('/kertas/edit/{id}', [KertasController::class, 'edit']);
-// Memproses update data
 Route::post('/kertas/update', [KertasController::class, 'update']);
 Route::get('/kertas/hapus/{id}', [KertasController::class, 'hapus']);
-// Menampilkan form tambah data kertas
 Route::get('/kertas/tambah', [KertasController::class, 'tambah']);
-// Menyimpan data baru
 Route::post('/kertas/store', [KertasController::class, 'store']);
 Route::get('/kertas/cari', [KertasController::class, 'cari']);
 
-
-// KaryawanController
-use App\Http\Controllers\KaryawanController;
-
+// route KaryawanController
 Route::get('/karyawan', [KaryawanController::class, 'index']);
 Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
 Route::post('/karyawan/store', [KaryawanController::class, 'store']);
@@ -114,9 +111,22 @@ Route::post('/karyawan/update', [KaryawanController::class, 'update']);
 Route::get('/karyawan/hapus/{kodekaryawan}', [KaryawanController::class, 'hapus']);
 Route::get('/karyawan/cari', [KaryawanController::class, 'index']);
 
+// route kerangjangbelanja
+Route::get('/latihan1', [KeranjangBelanjaController::class, 'indexkeranjangbelanja']);
+Route::get('/latihan1/belikeranjangbelanja/{id}', [KeranjangBelanjaController::class, 'belikeranjangbelanja']);
+Route::get('/latihan1/batalkeranjangbelanja/{id}', [KeranjangBelanjaController::class, 'batalkeranjangbelanja']);
+Route::post('/latihan1/storekeranjangbelanja', [KeranjangBelanjaController::class, 'storekeranjangbelanja']);
+Route::post('/latihan1/updatekeranjangbelanja', [KeranjangBelanjaController::class, 'updatekeranjangbelanja']);
 
+// route pagecounter
+Route::get('/pagecounter', [PageCounterController::class, 'show']);
 
-
+// route nilai
+Route::get('/eas2025', [NilaiController::class, 'indexnilai']);
+Route::get('/eas2025/belinilai/{id}', [NilaiController::class, 'belinilai']);
+Route::get('/eas2025/batalnilai/{id}', [NilaiController::class, 'batalnilai']);
+Route::post('/eas2025/storenilai', [NilaiController::class, 'storenilai']);
+Route::post('/eas2025/updatenilai', [NilaiController::class, 'updatenilai']);
 
 // route pencari
 Route::get('/pegawai', [PegawaiDBController::class, 'index']);

@@ -38,16 +38,16 @@
                 <a class="nav-link" href="kertas">Tugas CRUD</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">EAS</a>
+                <a class="nav-link" href="eas2025">EAS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="karyawan">Latihan 1 karyawan</a>
+                <a class="nav-link" href="karyawan">Latihan 1</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Latihan 2</a>
+                <a class="nav-link" href="latihan1">Latihan 2</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Latihan 3</a>
+                <a class="nav-link" href="pagecounter">Latihan 3</a>
             </li>
         </ul>
     </nav>
